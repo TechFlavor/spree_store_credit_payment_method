@@ -2,14 +2,14 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_store_credits'
-  s.version     = '3.0.0.beta'
+  s.version     = '3.0.1.beta'
   s.summary     = 'Store credit as a payment method'
   s.description = 'Enables associating store credit to a user and using the store credit as a form of payment during checkout.'
-  s.required_ruby_version = '>= 2.1.0'
+  s.required_ruby_version = '>= 2.2.0'
 
-  s.author    = 'Bonobos'
-  s.email     = 'engineering@bonobos.com'
-  s.homepage  = 'http://www.bonobos.com'
+  s.author    = 'Andrew Chaney'
+  s.email     = 'andrew@techflavor.com'
+  s.homepage  = 'https://www.techflavor.com'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
